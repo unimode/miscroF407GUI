@@ -1,0 +1,12 @@
+Note! 
+1. Some device connected to FSMC in the Discovered board such as LEDS, USB, Sound subsystem etc.
+It may cause to wrong display working.
+
+2. The following pins will be connected to displey by wire:
+  PD0 - FSMC_D2
+  PD1 - FSMC_D3
+  PD4 - FSMC_NOE
+  PD5 - FSMC_NWE
+  PD7 - FSMC_NE1
+  
+ 
